@@ -125,19 +125,7 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
 }
 
 
-// punktide lisamine
-if(isset($_REQUEST["heatants"])){
-    global $yhendus;
-    $kask=$yhendus->prepare("UPDATE tantsud SET punktid=punktid+1 WHERE id=?");
-    $kask->bind_param("i", $_REQUEST["heatants"]);
-    $kask->execute();
-}
-if(isset($_REQUEST["badtants"])){
-    global $yhendus;
-    $kask=$yhendus->prepare("UPDATE tantsud SET punktid=punktid-1 WHERE id=?");
-    $kask->bind_param("i", $_REQUEST["badtants"]);
-    $kask->execute();
-}
+
 function isAdmin(){
     return  isset($_SESSION['onAdmin']) && $_SESSION['onAdmin'];
 }
@@ -148,12 +136,7 @@ if(isset($_REQUEST["kustuta"])) {
     $kask->bind_param("i", $_REQUEST["kustuta"]);
     $kask->execute();
 }
-if(isset($_REQUEST["kustutakom"])) {
-    global $yhendus;
-    $kask = $yhendus->prepare("UPDATE tantsud SET kommentaarid='-' WHERE id=?");
-    $kask->bind_param("i", $_REQUEST["kustutakom"]);
-    $kask->execute();
-}
+
 ?>
 <!doctype html>
 <html lang="et">
