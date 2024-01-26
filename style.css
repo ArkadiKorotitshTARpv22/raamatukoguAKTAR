@@ -1,0 +1,149 @@
+.close, .close2 {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus, .close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #ffeebe;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px; background-color: #A88F59;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #ffeebe;
+  color: white;
+}
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color:darkorange;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-right: solid 1px darkgrey;
+    font-variant: small-caps;
+
+}
+ul{
+    list-style-type: none;
+    margin: 20px; /*väline vähe elementist*/
+    padding: 0; /*elemendi sisu ümber ruum*/
+    overflow: hidden;
+    background-color: whitesmoke;
+    width: 100%;
+}
+li a:hover{
+    background-color: coral;
+    color: whitesmoke;
+    text-decoration: underline whitesmoke;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #ffdf8f; /* Fallback color */
+  background-color: #ffdf8f; /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 10px;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+body{
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    color: #fff;
+	text-align: center;
+	text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+h1 {
+	position: relative;
+	color: #fff;
+	font: 900 60px Montserrat;
+	text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+table 			      { 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background:white;
+  border-radius:6px;
+  overflow:hidden;
+  max-width:800px; 
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  background-color: #967117;
+  
+                 { position:relative }
+  
+  td,th           { padding-left:8px}
+
+  thead tr        { 
+    height:60px;
+    background:#967117;
+    font-size:16px;
+  }
