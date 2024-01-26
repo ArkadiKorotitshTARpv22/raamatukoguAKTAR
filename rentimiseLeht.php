@@ -18,10 +18,7 @@ if(isset($_REQUEST["rentimine"])){
     $kask->bind_param("i", $_REQUEST["rentimine"]);
     $kask->execute();
 }
-// include our connect script
 
-
-// check to see if there is a user already logged in, if so redirect them
 session_start();
 if (isset($_SESSION['username']) && isset($_SESSION['userid']))
     header("Location: ./haldusLeht.php");  // redirect the user to the home page
