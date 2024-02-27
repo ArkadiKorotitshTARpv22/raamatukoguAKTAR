@@ -17,11 +17,10 @@
 ![kuupLeht.php](kuup.png)
 ## Login Leht
 *Aken sisselogimiseks*
-## Logout Leht
-*Välja logimise aken*
 ## Register Leht
 *Registreerimise aken*
 ## Rentimise Leht
 *Aken raamatute rentimiseks*
+![rentimiseLeht.php](rentimise.png)
 ## Style.css
 ***Stiili kõik on salvestatud siin***
