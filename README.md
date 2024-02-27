@@ -12,3 +12,13 @@
 *Konfigureerib andmebaasi vahelise ühenduse*
 ## Kuup Leht
 *Räägib kogu informatsiooni üürimise kohta*
+## Login Leht
+*Aken sisselogimiseks*
+## Logout Leht
+*Välja logimise aken*
+## Register Leht
+*Registreerimise aken*
+## Rentimise Leht
+*Aken raamatute rentimiseks*
+## Style.css
+***Stiili kõik on salvestatud siin***
