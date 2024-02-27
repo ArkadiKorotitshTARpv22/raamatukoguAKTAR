@@ -29,3 +29,5 @@ Saate raamatu rentida ja see kaob kasutaja jaoks ära, kuid näitab administraat
 ![rentimiseLeht.php](rentimise.png)
 ## Style.css
 ***Stiili kõik on salvestatud siin***
+### Link
+This site was built using [GitHub Pages](https://arkadikorotots22.thkit.ee/jsleht/content/andmebaas/raamatukogu/haldusLeht.php).
