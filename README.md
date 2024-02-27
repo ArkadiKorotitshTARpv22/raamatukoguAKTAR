@@ -10,6 +10,7 @@
 - Administraatori ja kasutaja õigused
 ### conf.php
 *Konfigureerib andmebaasi vahelise ühenduse*
+
 ![conf.php](conf.png)
 ## Kuup Leht
 *Räägib kogu informatsiooni üürimise kohta*
