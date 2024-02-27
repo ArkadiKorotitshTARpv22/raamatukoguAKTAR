@@ -14,6 +14,7 @@
 ![conf.php](conf.png)
 ## Kuup Leht
 *Räägib kogu informatsiooni üürimise kohta*
+![kuupLeht.php](kuup.png)
 ## Login Leht
 *Aken sisselogimiseks*
 ## Logout Leht
