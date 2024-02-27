@@ -4,11 +4,11 @@
 ## Haldus Leht
 *See on minu projekti peamenüü, kus toimub enamik asju.*
 
-** Näiteks: **
+**Näiteks:**
 - Registreerimine
 - Logi sisse
 - Administraatori ja kasutaja õigused
 ### conf.php
-* Konfigureerib andmebaasi vahelise ühenduse *
+*Konfigureerib andmebaasi vahelise ühenduse*
 ## Kuup Leht
-* Räägib kogu informatsiooni üürimise kohta *
+*Räägib kogu informatsiooni üürimise kohta*
