@@ -104,7 +104,7 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
         $_SESSION['kasutaja'] = $login;
         $_SESSION['onAdmin'] = $onAdmin;
         if($onAdmin==1) {
-            header('Location: adminLeht.php');
+            header('Location: haldusLeht.php');
 
             $yhendus->close();
             exit();
