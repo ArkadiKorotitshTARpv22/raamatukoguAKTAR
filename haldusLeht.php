@@ -181,7 +181,7 @@ if(isset($_REQUEST["kustuta"])) {
         <?php
     }
     ?>
-    
+
 </header>
 <div class="">
         <?php
@@ -373,8 +373,9 @@ if (isset($_SESSION["kasutaja"])) {
         <th>Raamatu nimi</th>
         <th>Autori nimi</th>
         <th>Laenu pikkus</th>
+        <th>Lõpp</th>
     </tr>
-<?php
+    <?php
 // ! + knopka tab - näitab html koodi algus
     global $yhendus;
     $kask=$yhendus->prepare("SELECT id, nimi, autor, laenu_pikkus FROM raamatukogu");
