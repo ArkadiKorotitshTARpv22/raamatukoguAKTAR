@@ -37,3 +37,10 @@ Saate raamatu rentida ja see kaob kasutaja jaoks ära, kuid näitab administraat
 ***Stiili kõik on salvestatud siin***
 ### Link
 Veebisaiti saab vaadata [siit](https://arkadikorotots22.thkit.ee/jsleht/content/andmebaas/raamatukogu/haldusLeht.php).
+# Ülesanded
+1. Muuda modal-body,modal-header ja modal-footer taustavärvi style.css-is
+2. Muuta background.jpg
+3. parooli kinnituse kustutamine modal -is (kuupLeht.php)
+4. lisada tabelisse veerg nimega "lõpp" (haldusLeht.php)
+5. tõlkida ingliskeelset teksti eesti keelde (register.php)
+6. ja veerg "id" tabelisse ja panna see näitama ka id ($id) (rentimiseLeht.php)
