@@ -379,6 +379,7 @@ if (isset($_SESSION["kasutaja"])) {
 ?>
 <table>
     <tr>
+        <th>id</th>
         <th>Raamatu nimi</th>
         <th>Autori nimi</th>
         <th>Laenu pikkus</th>
@@ -392,6 +393,7 @@ if (isset($_SESSION["kasutaja"])) {
     while($kask->fetch()){
         echo "<tr>";
         $nimi=htmlspecialchars($nimi);
+        echo "<td>".$id."</td>";
         echo "<td>".$nimi."</td>";
         echo "<td>".$autor."</td>";
         echo "<td>".$laenupikkus."</td>";
