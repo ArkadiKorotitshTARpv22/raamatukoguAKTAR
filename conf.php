@@ -1,7 +1,7 @@
 <?php
-$kasutaja='d123178_arkadiko';
-$serverinimi='d123178.mysql.zonevs.eu';
-$parool='markiz2020!';
+$kasutaja='root';
+$serverinimi='localhost';
+$parool='';
 $andmebaas='d123178_akbaas';
 $yhendus=new mysqli($serverinimi,$kasutaja,$parool,$andmebaas);
 $yhendus->set_charset('UTF8');

@@ -15,16 +15,16 @@
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #ffeebe;
+  background-color: chartreuse;
   color: white;
 }
 
-.modal-body {padding: 2px 16px; background-color: #A88F59;}
+.modal-body {padding: 2px 16px; background-color: khaki;}
 
 .modal-footer {
   padding: 2px 16px;
   background-color: #ffeebe;
-  color: white;
+  color: pink;
 }
 li {
     float: left;
