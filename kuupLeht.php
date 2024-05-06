@@ -298,9 +298,9 @@ if(isset($_REQUEST["kustuta"])) {
     <div class="">
         <p>password peab olema vähemalt 5 tähemärki ja<br /> sisaldama erimärki, nt !#$.,:;()</font></p>
     </div>
-    <div class="">
+    <!--<div class="">
         <input type="password" name="passwd_again" value="" placeholder="confirm your password" autocomplete="off" required />
-    </div>
+    </div>-->
 
     <div class="">
         <input class="" type="submit" name="registerBtn" value="create account" />
