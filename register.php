@@ -52,20 +52,20 @@ if (isset($_POST['registerBtn'])){
                     }
                 }
                 else
-                    $error_msg = 'Your password is not strong enough. Please use another.';
+                    $error_msg = 'Teie parool ei ole piisavalt tugev. Palun kasutage teist.';
             }
             else
-                $error_msg = 'Your passwords did not match.';
+                $error_msg = 'Teie paroolid ei sobinud.';
         }
         else
-            $error_msg = 'Please fill out all required fields.';
+            $error_msg = 'Palun täitke kõik nõutavad väljad.';
     }
     else
-        $error_msg = 'The username <i>'.$username.'</i> is already taken. Please use another.';
+        $error_msg = 'Kasutajanimi <i>'.$username.'</i> on juba võetud. Palun kasutage teist.';
 }
 
 else
-    $error_msg = 'An error occurred and your account was not created.';
+    $error_msg = 'Tekkis viga ja teie kontot ei loodud.';
 
 
 ?>
@@ -81,7 +81,7 @@ else
         <?php
         // check to see if the user successfully created an account
         if (isset($success) && $success){
-            echo '<p color="green">Yay!! Your account has been created. <a href="./login.php">Click here</a> to login!<p>';
+            echo '<p color="green">Jaa!!! Teie konto on loodud. <a href="./login.php">Vajuta siia</a> sisselogimiseks!<p>';
         }
         // check to see if the error message is set, if so display it
         else if (isset($error_msg))
@@ -97,7 +97,7 @@ else
         <input type="password" name="passwd" value="" placeholder="enter a password" autocomplete="off" required />
     </div>
     <div class="">
-        <p>password must be at least 5 characters and<br /> have a special character, e.g. !#$.,:;()</font></p>
+        <p>salasõna peab olema vähemalt 5 tähemärki ja<br /> on erimärk, nt. !#$.,:;()</font></p>
     </div>
     <div class="">
         <input type="password" name="passwd_again" value="" placeholder="confirm your password" autocomplete="off" required />
